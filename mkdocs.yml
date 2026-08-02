@@ -1,0 +1,48 @@
+site_name: Natalie Bluhm | Technical Writing Portfolio
+site_description: Technical Writing Portfolio
+site_author: Natalie Bluhm
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - Resume: resume.md
+  - Portfolio:
+      - Assessment Studio: projects/assessment-studio.md
+      - AWS Red Shift Integration Guide: projects/aws-redshift-integration.md
+      - Conditional Access Policies Guide: projects/conditional-access-policies.md
+      - SAML Troubleshooting Guide: projects/saml-troubleshooting.md
+      - ĒMA Trellis Documentation Suite: projects/ema-trellis-app.md
+      - Gloo Impact UX Writing: projects/gloo-impact-uxwriting.md
+      - Gloo Microsite Generator Help Center: projects/gloo-microsite.md
+      - API Documentation: projects/api-doc.md
+    
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
