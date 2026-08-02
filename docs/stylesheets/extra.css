@@ -1,0 +1,162 @@
+/* Widen the main site layout */
+.md-grid {
+  max-width: 1500px;
+}
+
+/* Remove normal content spacing from the homepage hero */
+.portfolio-hero {
+  position: relative;
+  min-height: 620px;
+  margin-top: -1.2rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  border-radius: 1rem;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(248, 246, 239, 0.98) 0%,
+      rgba(248, 246, 239, 0.93) 25%,
+      rgba(248, 246, 239, 0.45) 50%,
+      rgba(248, 246, 239, 0.05) 70%
+    ),
+    url("../images/portfolio-hero-image.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-hero__overlay {
+  display: flex;
+  align-items: center;
+  min-height: 620px;
+  padding: 4rem;
+}
+
+.portfolio-hero__content {
+  width: min(580px, 55%);
+}
+
+.portfolio-hero__eyebrow {
+  margin-bottom: 1rem;
+  color: #12665e;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.portfolio-hero__content h1 {
+  margin: 0 0 1.25rem;
+  color: #123c3b;
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-hero__description {
+  max-width: 540px;
+  margin-bottom: 2rem;
+  color: #253c3b;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.portfolio-hero__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.portfolio-hero__buttons .md-button {
+  margin: 0;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .portfolio-hero {
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(20, 29, 32, 0.98) 0%,
+      rgba(20, 29, 32, 0.92) 28%,
+      rgba(20, 29, 32, 0.35) 55%,
+      rgba(20, 29, 32, 0.05) 75%
+    ),
+    url("../images/portfolio-hero-image.png");
+}
+
+[data-md-color-scheme="slate"] .portfolio-hero__content h1,
+[data-md-color-scheme="slate"] .portfolio-hero__description {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .portfolio-hero__eyebrow {
+  color: #80cbc4;
+}
+
+/* Tablet and mobile */
+@media screen and (max-width: 900px) {
+  .portfolio-hero {
+    min-height: 680px;
+    background-position: 62% center;
+
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(248, 246, 239, 0.97) 0%,
+        rgba(248, 246, 239, 0.88) 45%,
+        rgba(248, 246, 239, 0.15) 80%
+      ),
+      url("../images/portfolio-hero-image.png");
+  }
+
+  .portfolio-hero__overlay {
+    align-items: flex-start;
+    min-height: 680px;
+    padding: 3rem 2rem;
+  }
+
+  .portfolio-hero__content {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .portfolio-hero__content h1 {
+    font-size: clamp(2.4rem, 9vw, 4rem);
+  }
+
+  [data-md-color-scheme="slate"] .portfolio-hero {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(20, 29, 32, 0.97) 0%,
+        rgba(20, 29, 32, 0.88) 45%,
+        rgba(20, 29, 32, 0.15) 80%
+      ),
+      url("../images/portfolio-hero-image.png");
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-hero {
+    min-height: 620px;
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
+    border-radius: 0;
+  }
+
+  .portfolio-hero__overlay {
+    min-height: 620px;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .portfolio-hero__description {
+    font-size: 1rem;
+  }
+
+  .portfolio-hero__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

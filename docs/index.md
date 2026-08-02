@@ -1,17 +1,39 @@
-# Clear documentation for complex software
-
-## 👋 Hi, I'm Natalie.
-
-I create clear, user-centered documentation that helps people (and AI) understand and confidently use complex software.
-
-My work spans school management software, enterprise resource planning software, cybersecurity software, and many other SaaS products. I specialize in organizing complex information, documenting detailed workflows, and creating content that is approachable, useful, and easy to maintain.
-
-[Explore my work](projects/assessment-studio.md){ .md-button .md-button--primary }
-[About me](resume.md){ .md-button }
-
+---
+hide:
+  - navigation
+  - toc
 ---
 
-## Featured projects
+<section class="portfolio-hero">
+  <div class="portfolio-hero__overlay">
+    <div class="portfolio-hero__content">
+
+      <p class="portfolio-hero__eyebrow">
+        Technical Writer &amp; Content Designer
+      </p>
+
+      <h1>Clear documentation for complex products.</h1>
+
+      <p class="portfolio-hero__description">
+       <p>👋 Hi, I'm Natalie. </p>
+        I create clear, user-centered documentation that helps people (and AI) understand and confidently use complex software.
+      </p>
+
+      <div class="portfolio-hero__buttons">
+        <a href="#featured-projects" class="md-button md-button--primary">
+          Explore My Work
+        </a>
+
+        <a href="resume/" class="md-button">
+          View My Résumé
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<h2 id="featured-projects">Featured Projects</h2>
 
 <div class="grid cards" markdown>
 
