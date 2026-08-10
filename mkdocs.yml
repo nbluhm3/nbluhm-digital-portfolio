@@ -41,6 +41,7 @@ nav:
       - Gloo Impact UX Writing: projects/gloo-impact-uxwriting.md
       - Gloo Microsite Generator Help Center: projects/gloo-microsite.md
       - API Documentation: projects/api-doc.md
+  - Contact: contact.md
     
 
 markdown_extensions:

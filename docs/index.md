@@ -21,11 +21,11 @@ hide:
 
       <div class="portfolio-hero__buttons">
         <a href="#featured-projects" class="md-button md-button--primary">
-          Explore My Work
+          Explore my work
         </a>
 
         <a href="resume/" class="md-button">
-          View My Résumé
+          View my resume
         </a>
       </div>
 

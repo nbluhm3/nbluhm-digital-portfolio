@@ -4,7 +4,6 @@
 
 📍 Remote (U.S.)  
 📧 nbluhm3@gmail.com  
-📞 984-284-9324
 
 ---
 
@@ -32,14 +31,13 @@ I specialize in transforming complex technical concepts into clear, approachable
 
 ## Professional Experience
 
-## Technical Writer
-
-**Focus School Software**  
+### Technical Writer - Focus School Software LLC
+  
 *January 2026 – Present*
 
 Create and maintain customer-facing documentation for a large enterprise education platform.
 
-### Responsibilities
+**Responsibilities**
 
 - Write and maintain user guides and help center documentation.
 - Create release notes for new software features.
@@ -48,14 +46,13 @@ Create and maintain customer-facing documentation for a large enterprise educati
 
 ---
 
-## Content Designer / Technical Writer
-
-**Servant LLC**  
+### Content Designer - Servant LLC
+ 
 *November 2022 – January 2025*
 
 Created documentation and UX content for multiple SaaS products in the finance, nonprofit, website-building, and mental health industries.
 
-### Responsibilities
+**Responsibilities**
 
 - Authored user guides, FAQs, and help center documentation.
 - Created UX copy including tooltips, helper text, and onboarding content.
@@ -66,14 +63,13 @@ Created documentation and UX content for multiple SaaS products in the finance, 
 
 ---
 
-## Technical Writer II
-
-**JumpCloud**  
+### Technical Writer II - JumpCloud LLC
+ 
 *August 2019 – June 2021*
 
 Produced customer-facing documentation for a cloud identity and access management (IAM) platform in an Agile development environment.
 
-### Responsibilities
+**Responsibilities**
 
 - Created and maintained technical documentation.
 - Wrote API, integration, troubleshooting, and feature documentation.
@@ -86,14 +82,13 @@ Produced customer-facing documentation for a cloud identity and access managemen
 
 ---
 
-## Content Writer
+### Content Writer - JumpCloud LLC
 
-**JumpCloud**  
 *June 2017 – August 2019*
 
 Created educational content focused on identity management, cybersecurity, and IT administration.
 
-### Responsibilities
+**Responsibilities**
 
 - Wrote and edited 5–8 technical blog articles each week.
 - Researched SSH, LDAP, RADIUS, and SAML technologies.
@@ -103,9 +98,9 @@ Created educational content focused on identity management, cybersecurity, and I
 
 ---
 
-# Education
+## Education
 
-## Bachelor of Arts
+### Bachelor of Arts
 
 **University of Colorado Colorado Springs**
 
@@ -114,3 +109,32 @@ Professional and Technical Writing
 2012–2017
 
 ---
+
+## Relevant Courses Taken
+
+**Learn API Technical Writing: JSON and XML for Writers**  
+Udemy — Nov 2025
+
+**Learn API Technical Writing 2: REST for Writers**  
+Udemy — Nov 2025
+
+**Git and GitHub for Writers**  
+Udemy — Nov 2025
+
+**Microcopy & UX Writing: The Complete Course**  
+Udemy — Jun 2023
+
+**Succeeding as a Solo UX Writer**  
+UX Content Collective — May 2024
+
+**Inclusive UX Writing: Physical Abilities & Neurodivergence**  
+Udemy — Apr 2024
+
+**Culture-Based UX Writing**  
+Udemy — Apr 2024
+
+**How to Write with AI**  
+Every Inc. — Oct 2024
+
+**Content Strategy 101**  
+Intuit — Jul 2024
