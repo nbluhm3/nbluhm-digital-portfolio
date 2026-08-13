@@ -33,14 +33,14 @@ nav:
   - Home: index.md
   - Resume: resume.md
   - Portfolio:
-      - Assessment Studio: projects/assessment-studio.md
-      - AWS Red Shift Integration Guide: projects/aws-redshift-integration.md
       - Conditional Access Policies Guide: projects/conditional-access-policies.md
+      - AWS Red Shift Integration Guide: projects/aws-redshift-integration.md
       - SAML Troubleshooting Guide: projects/saml-troubleshooting.md
       - ĒMA Trellis Documentation Suite: projects/ema-trellis-app.md
       - Gloo Impact UX Writing: projects/gloo-impact-uxwriting.md
       - Gloo Microsite Generator Help Center: projects/gloo-microsite.md
       - API Documentation: projects/api-doc.md
+      - Assessment Studio: projects/assessment-studio.md
   - Contact: contact.md
     
 

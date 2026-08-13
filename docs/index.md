@@ -39,14 +39,6 @@ hide:
 
 <div class="grid cards" markdown>
 
--   **Assessment Studio**
-
-    ---
-
-    A comprehensive documentation project covering assessment creation, question authoring, delivery, reporting, sharing, and platform configuration.
-
-    [View the project →](projects/assessment-studio.md)
-
 -   **Conditional Access Policies**
 
     ---
@@ -70,6 +62,14 @@ hide:
     A complete documentation ecosystem—including user guides, quick start guides, and tutorial videos—created for five distinct user roles.
 
     [View the project →](projects/ema-trellis-app.md)
+
+-   **Assessment Studio**
+
+    ---
+
+    A comprehensive documentation project covering assessment creation, question authoring, delivery, reporting, sharing, and platform configuration.
+
+    [View the project →](projects/assessment-studio.md)
 
 </div>
 
