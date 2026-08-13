@@ -16,7 +16,9 @@ hide:
 
       <p class="portfolio-hero__description">
        <p>👋 Hi, I'm Natalie. </p>
-        I create clear, user-centered documentation that helps people (and AI) understand and confidently use complex software.
+       <p> I create clear, user-centered documentation that helps people (and AI) understand and confidently use complex software.</p>
+
+       <p> I have experience documenting SaaS software products like Identity Access Management (IAM) and cybersecurity products, enterprise resource planning systems, student information systems, philanthropy tools, website builders, and streaming platforms. </p>
       </p>
 
       <div class="portfolio-hero__buttons">

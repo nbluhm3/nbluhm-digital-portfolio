@@ -37,7 +37,7 @@ My responsibilities included:
 
 ---
 
-# Results
+## Results
 
 This project produced a comprehensive documentation ecosystem that supported users throughout every stage of the assessment process.
 

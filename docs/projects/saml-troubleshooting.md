@@ -35,7 +35,7 @@ My responsibilities included:
 
 ---
 
-# Results
+## Results
 
 This project produced documentation that:
 

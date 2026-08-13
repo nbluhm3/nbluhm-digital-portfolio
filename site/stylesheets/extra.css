@@ -160,3 +160,73 @@
     align-items: flex-start;
   }
 }
+/* -------------------------
+   Contact Page
+------------------------- */
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+/* Individual contact cards */
+
+.contact-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-card p {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Thank-you section */
+
+.contact-thanks {
+  margin-top: 4rem;
+  padding: 2rem 2.5rem;
+  background: #eef8f6;
+  border-radius: 1rem;
+}
+
+.contact-thanks h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.contact-thanks p {
+  margin-bottom: 0.5rem;
+}
+
+.contact-thanks strong {
+  display: block;
+  margin-top: 1rem;
+  color: #009688;
+  font-size: 1.2rem;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+  .contact-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    padding: 2rem;
+  }
+}

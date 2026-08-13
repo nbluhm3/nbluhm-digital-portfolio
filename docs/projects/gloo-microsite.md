@@ -38,7 +38,7 @@ My responsibilities included:
 
 ---
 
-# Results
+## Results
 
 This project delivered:
 
