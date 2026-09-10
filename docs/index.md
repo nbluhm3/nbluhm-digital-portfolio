@@ -4,36 +4,60 @@ hide:
   - toc
 ---
 
-<section class="portfolio-hero">
-  <div class="portfolio-hero__overlay">
-    <div class="portfolio-hero__content">
+<div class="portfolio-hero">
+
+  <div class="portfolio-hero__pattern"></div>
+
+  <div class="portfolio-hero__content">
+
+    <div class="portfolio-hero__left">
 
       <p class="portfolio-hero__eyebrow">
-        Technical Writer &amp; Content Designer
+        Technical Writer & Content Designer
       </p>
 
-      <h1>Clear documentation for complex products.</h1>
+      <h1>
+        Clear documentation<br>
+        for complex products.
+      </h1>
 
-      <p class="portfolio-hero__description">
-       <p>👋 Hi, I'm Natalie. </p>
-       <p> I create clear, user-centered documentation that helps people (and AI) understand and confidently use complex software.</p>
-
-       <p> I have experience documenting SaaS software products like Identity Access Management (IAM) and cybersecurity products, enterprise resource planning systems, student information systems, philanthropy tools, website builders, and streaming platforms. </p>
-      </p>
+      <div class="portfolio-hero__accent"></div>
 
       <div class="portfolio-hero__buttons">
-        <a href="#featured-projects" class="md-button md-button--primary">
-          Explore my work
+        <a href="#featured-work" class="md-button md-button--primary">
+          Explore my work →
         </a>
 
         <a href="resume/" class="md-button">
-          View my resume
+          View resume →
         </a>
       </div>
 
     </div>
+
+    <div class="portfolio-hero__right">
+
+      <p class="portfolio-hero__hello">
+        👋 Hi, I'm Natalie.
+      </p>
+
+      <p>
+        I create clear, user-centered documentation that helps people
+        (and AI) understand and confidently use complex software.
+      </p>
+
+      <p>
+        I have 8 years of experience documenting SaaS software products like Identity
+        Access Management (IAM) and cybersecurity products, enterprise
+        resource planning systems, student information systems, philanthropy
+        tools, website builders, and streaming platforms.
+      </p>
+
+    </div>
+
   </div>
-</section>
+
+</div>
 
 <h2 id="featured-projects">Featured Projects</h2>
 
@@ -96,9 +120,3 @@ hide:
     Experience working with Jira, SMEs, release cycles, reviews, version control, and docs-as-code tools.
 
 </div>
-
----
-
-## Behind this portfolio
-
-This portfolio is being built with **Markdown, Git, GitHub, VS Code, and MkDocs Material**. The site itself serves as a practical example of my growing experience with a docs-as-code workflow.
