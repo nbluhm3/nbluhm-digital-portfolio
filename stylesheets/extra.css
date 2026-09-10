@@ -1,165 +1,294 @@
-/* Widen the main site layout */
-.md-grid {
-  max-width: 1500px;
-}
+/* ==========================================
+   HOMEPAGE HERO
+   ========================================== */
 
-/* Remove normal content spacing from the homepage hero */
 .portfolio-hero {
-  position: relative;
-  min-height: 620px;
-  margin-top: -1.2rem;
-  margin-bottom: 3rem;
+  width: 100vw;
+
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  /* Pull hero up through MkDocs' default top spacing */
+  margin-top: -2.5rem;
+
+  background: #ffffff;
   overflow: hidden;
-  border-radius: 1rem;
+}
 
-  background-image:
-    linear-gradient(
-      90deg,
-      rgba(248, 246, 239, 0.98) 0%,
-      rgba(248, 246, 239, 0.93) 25%,
-      rgba(248, 246, 239, 0.45) 50%,
-      rgba(248, 246, 239, 0.05) 70%
-    ),
-    url("../images/portfolio-hero-image.png");
 
-  background-position: center;
-  background-size: cover;
+/* ==========================================
+   GEOMETRIC PATTERN
+   ========================================== */
+
+.portfolio-hero__pattern {
+  position: relative;
+  width: 100%;
+  height: 310px;
+
+  background-image: url("../images/resume-header-3.png");
   background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
-.portfolio-hero__overlay {
-  display: flex;
-  align-items: center;
-  min-height: 620px;
-  padding: 4rem;
+
+/* Fade geometric pattern into white */
+.portfolio-hero__pattern::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.08) 38%,
+    rgba(255, 255, 255, 0.4) 65%,
+    rgba(255, 255, 255, 0.82) 86%,
+    #ffffff 100%
+  );
 }
+
+
+/* ==========================================
+   HERO CONTENT
+   ========================================== */
 
 .portfolio-hero__content {
-  width: min(580px, 55%);
+  width: min(1450px, calc(100% - 6rem));
+  margin: -1.5rem auto 0;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6rem;
+
+  position: relative;
+  z-index: 2;
+
+  padding: 1rem 0 6rem;
+}
+
+
+/* ==========================================
+   LEFT COLUMN
+   ========================================== */
+
+.portfolio-hero__left {
+  padding-right: 1rem;
 }
 
 .portfolio-hero__eyebrow {
-  margin-bottom: 1rem;
-  color: #12665e;
-  font-size: 0.85rem;
+  margin: 0 0 1.3rem;
+
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+
+  color: #007f74;
 }
 
-.portfolio-hero__content h1 {
-  margin: 0 0 1.25rem;
-  color: #123c3b;
-  font-size: clamp(2.6rem, 5vw, 4.8rem);
+.portfolio-hero__left h1 {
+  margin: 0;
+
+  max-width: 720px;
+
+  font-size: clamp(3rem, 5vw, 5rem);
   line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+
+  color: #173f3c;
 }
 
-.portfolio-hero__description {
-  max-width: 540px;
+.portfolio-hero__accent {
+  width: 62px;
+  height: 4px;
+
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  color: #253c3b;
-  font-size: 1.15rem;
-  line-height: 1.7;
+
+  background: #9fd7d1;
+  border-radius: 999px;
 }
+
+
+/* ==========================================
+   BUTTONS
+   ========================================== */
 
 .portfolio-hero__buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .portfolio-hero__buttons .md-button {
   margin: 0;
+
+  padding: 0.75rem 1.35rem;
+
+  border-radius: 0.35rem;
+  font-weight: 600;
 }
 
-/* Dark mode */
-[data-md-color-scheme="slate"] .portfolio-hero {
-  background-image:
-    linear-gradient(
-      90deg,
-      rgba(20, 29, 32, 0.98) 0%,
-      rgba(20, 29, 32, 0.92) 28%,
-      rgba(20, 29, 32, 0.35) 55%,
-      rgba(20, 29, 32, 0.05) 75%
-    ),
-    url("../images/portfolio-hero-image.png");
+.portfolio-hero__buttons .md-button--primary {
+  background: #008b80;
+  border-color: #008b80;
 }
 
-[data-md-color-scheme="slate"] .portfolio-hero__content h1,
-[data-md-color-scheme="slate"] .portfolio-hero__description {
-  color: #ffffff;
+.portfolio-hero__buttons .md-button--primary:hover {
+  background: #006f67;
+  border-color: #006f67;
 }
 
-[data-md-color-scheme="slate"] .portfolio-hero__eyebrow {
-  color: #80cbc4;
+
+/* ==========================================
+   RIGHT COLUMN
+   ========================================== */
+
+.portfolio-hero__right {
+  position: relative;
+
+  max-width: 680px;
+
+  padding-left: 3rem;
+
+  font-size: 1.08rem;
+  line-height: 1.7;
+
+  color: #2f3437;
 }
 
-/* Tablet and mobile */
-@media screen and (max-width: 900px) {
-  .portfolio-hero {
-    min-height: 680px;
-    background-position: 62% center;
 
-    background-image:
-      linear-gradient(
-        180deg,
-        rgba(248, 246, 239, 0.97) 0%,
-        rgba(248, 246, 239, 0.88) 45%,
-        rgba(248, 246, 239, 0.15) 80%
-      ),
-      url("../images/portfolio-hero-image.png");
+/* Vertical divider */
+.portfolio-hero__right::before {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  top: 0.3rem;
+  bottom: 0.3rem;
+
+  width: 1px;
+
+  background: #c8e4e0;
+}
+
+.portfolio-hero__hello {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+
+  font-size: 1.55rem;
+  line-height: 1.3;
+  font-weight: 500;
+
+  color: #202428;
+}
+
+.portfolio-hero__right p {
+  margin-bottom: 1.4rem;
+}
+
+
+/* ==========================================
+   TABLET
+   ========================================== */
+
+@media screen and (max-width: 1100px) {
+
+  .portfolio-hero__content {
+    width: min(100% - 3rem, 1000px);
+    gap: 3rem;
   }
 
-  .portfolio-hero__overlay {
-    align-items: flex-start;
-    min-height: 680px;
-    padding: 3rem 2rem;
+  .portfolio-hero__left h1 {
+    font-size: clamp(2.7rem, 5vw, 4rem);
+  }
+
+  .portfolio-hero__right {
+    padding-left: 2rem;
+  }
+
+}
+
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+@media screen and (max-width: 800px) {
+
+  .portfolio-hero__pattern {
+    height: 210px;
+    background-size: auto 210px;
   }
 
   .portfolio-hero__content {
-    width: 100%;
-    max-width: 600px;
+    width: calc(100% - 3rem);
+
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+    margin-top: -0.5rem;
+    padding-bottom: 4rem;
   }
 
-  .portfolio-hero__content h1 {
-    font-size: clamp(2.4rem, 9vw, 4rem);
+  .portfolio-hero__left {
+    padding-right: 0;
   }
 
-  [data-md-color-scheme="slate"] .portfolio-hero {
-    background-image:
-      linear-gradient(
-        180deg,
-        rgba(20, 29, 32, 0.97) 0%,
-        rgba(20, 29, 32, 0.88) 45%,
-        rgba(20, 29, 32, 0.15) 80%
-      ),
-      url("../images/portfolio-hero-image.png");
+  .portfolio-hero__left h1 {
+    font-size: clamp(2.6rem, 10vw, 4rem);
   }
+
+  .portfolio-hero__right {
+    max-width: none;
+
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+
+  .portfolio-hero__right::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+
+    width: 70px;
+    height: 1px;
+  }
+
 }
 
-@media screen and (max-width: 600px) {
-  .portfolio-hero {
-    min-height: 620px;
-    margin-left: -0.8rem;
-    margin-right: -0.8rem;
-    border-radius: 0;
+
+/* ==========================================
+   SMALL MOBILE
+   ========================================== */
+
+@media screen and (max-width: 500px) {
+
+  .portfolio-hero__pattern {
+    height: 170px;
+    background-size: auto 170px;
   }
 
-  .portfolio-hero__overlay {
-    min-height: 620px;
-    padding: 2.5rem 1.5rem;
+  .portfolio-hero__content {
+    width: calc(100% - 2rem);
   }
 
-  .portfolio-hero__description {
-    font-size: 1rem;
+  .portfolio-hero__eyebrow {
+    font-size: 0.75rem;
+  }
+
+  .portfolio-hero__left h1 {
+    font-size: 2.65rem;
   }
 
   .portfolio-hero__buttons {
     flex-direction: column;
     align-items: flex-start;
   }
-}
+
 /* -------------------------
    Contact Page
 ------------------------- */
